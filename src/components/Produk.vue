@@ -25,11 +25,11 @@
 
   </div>
 
-  <button type="submit" class="btn btn-primary">Save</button>
+  <button type="submit" class="btn btn-primary mt-3">Post</button>
 </form>
 
-      <h2>Produk</h2>
-      <table class="table table-dark">
+      <h2>Data Produk</h2>
+      <table class="table table-info">
   <thead>
     <tr>
       <!-- <th scope="col">ID</th> -->
@@ -49,7 +49,7 @@
           <td>Rp.{{ pijarcamp.harga }}</td>
           <td>{{ pijarcamp.jumlah }}</td>
           <td>
-            <button type="button" class="btn btn-warning" @click="edit(pijarcamp)">Edit</button>
+            <button type="button" class="btn btn-warning m-2" @click="edit(pijarcamp)">Edit</button>
             <button type="button" class="btn btn-danger"  @click="remove(pijarcamp)">Delete</button>
           </td>
         </tr>
